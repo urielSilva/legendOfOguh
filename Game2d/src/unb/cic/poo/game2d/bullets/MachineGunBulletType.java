@@ -23,7 +23,7 @@ public class MachineGunBulletType extends BulletType{
 			this.ammoQuantity--;
 		}
 			
-		//Por meio da variavel alternator, é possível variar a posicão dos tiros, alternando entre cima e baixo (pY+10 e pY-10).
+		//Por meio da variavel alternator, ? poss?vel variar a posic?o dos tiros, alternando entre cima e baixo (pY+10 e pY-10).
 		if(alternator == 1){
 			CommonBullet bullet = new CommonBullet(pX, pY-10, isEnemy); 
 			GameManager.getInstance().getGameScene().attachChild(bullet);
